@@ -16,4 +16,16 @@ plt.title('Line Plot')
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 
+plt.show() 
+
+
+"""" Changing the Plot Size """
+fig=plt.figure(figsize=(8,3))
+
+plt.plot(X,Y)
+
+plt.title('Line Plot')
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+
 plt.show()
